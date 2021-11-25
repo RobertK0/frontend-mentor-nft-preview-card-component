@@ -20,7 +20,7 @@ main {
   background-color: hsl(216, 50%, 16%);
   display: flex;
   flex-direction: column;
-  width: 90%;
+  width: 87%;
   border-radius: 10px;
   overflow: hidden;
   box-sizing: border-box;
@@ -37,9 +37,9 @@ main {
 
 h1 {
   color: white;
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   font-weight: 600;
-  margin-bottom: 18px;
+  margin-bottom: 15px;
 }
 
 h2 {
@@ -48,9 +48,9 @@ h2 {
 }
 
 .description {
-  font-size: 1rem;
+  font-size: 0.9rem;
   line-height: 1.4rem;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 
 .price-time {
@@ -58,7 +58,7 @@ h2 {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 
 .eth-icon {
@@ -69,7 +69,7 @@ h2 {
 
 h3 {
   color: hsl(178, 100%, 50%);
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   font-weight: 400;
 }
 
@@ -82,7 +82,7 @@ h3 {
 
 h4 {
   color: hsl(215, 51%, 70%);
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   font-weight: 400;
 }
 
@@ -93,7 +93,7 @@ h4 {
   border-top: 1px solid hsl(215, 32%, 27%);
   padding-top: 15px;
   font-size: 0.7rem;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 
 .profile-picture {
@@ -116,5 +116,27 @@ h5 {
 @media screen and (min-width: 600px) {
   main {
     width: 350px;
+  }
+
+  .description {
+    font-size: 1rem;
+    margin-bottom: 25px;
+  }
+
+  .price-time {
+    margin-bottom: 25px;
+  }
+
+  h1 {
+    font-size: 1.2rem;
+    margin-bottom: 18px;
+  }
+
+  h3,
+  h4 {
+    font-size: 0.9rem;
+  }
+  .created-by {
+    margin-bottom: 10px;
   }
 }
