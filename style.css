@@ -1,0 +1,118 @@
+*{
+    font-family: 'Outfit', sans-serif;
+    margin:0;
+    padding:0;
+}
+
+html, body {
+    height: 100%;
+    font-size: 18px;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    background-color: hsl(217, 54%, 11%);
+}
+
+main{
+    background-color: hsl(216, 50%, 16%);
+    display:flex;
+    flex-direction: column;
+    width:90%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-sizing: border-box;
+    box-shadow: 0 10px 15px 5px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    padding: 22px;
+}
+
+.nft-image{
+    width:100%;
+    margin:0 auto 20px auto;
+    border-radius: 10px;
+}
+
+h1{
+    color:white;
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+h2{
+    color:hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+
+.description{
+    font-size: 0.865rem;
+    line-height: 1.3rem;
+    margin-bottom: 20px;
+}
+
+.price-time{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.eth-icon{
+    height:15px;
+    aspect-ratio: initial;
+    margin-right: 5px;
+}
+
+h3{
+    color:hsl(178, 100%, 50%);
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.clock-icon{
+    height:15px;
+    aspect-ratio: initial;
+    margin-left: auto;
+    margin-right: 5px;
+}
+
+h4{
+    color:hsl(215, 51%, 70%);
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.created-by{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    border-top: 1px solid hsl(215, 32%, 27%);
+    padding-top: 15px;
+    font-size: 0.7rem;
+    margin-bottom: 5px;
+}
+
+.profile-picture{
+    width:25px;
+    border:1px solid white;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.created-by h2, h5{
+    font-size: 0.75rem;
+}
+
+h5{
+    color:white;
+    font-weight: 300;
+}
+
+@media screen and (min-width:600px){
+    main{
+        width:300px;
+    }
+}
